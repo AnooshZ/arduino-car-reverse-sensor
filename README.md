@@ -38,12 +38,8 @@ Key logic:
 ---
 
 ## 🎥 Demo
+[Click here to watch the demo video](demo.mp4)
 
-Here’s the reverse parking sensor in action:
-
-[![Demo Video](Circuit.jpg)](demo.mp4)
-
-*(Click the image to watch the demo video)*
 
 ---
 
