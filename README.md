@@ -78,7 +78,7 @@ Key logic:
 ---
 
 ## 📌 Learning Outcomes
-- Embedded C/C++ programming in Arduino
+- Embedded C programming in Arduino
 - Ultrasonic sensor integration
 - Real-time distance measurement
 - Hardware-software integration for automotive systems
