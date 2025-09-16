@@ -33,7 +33,7 @@ See [`ReverseSensor.ino`](ReverseSensor.ino) for the full Arduino sketch.
 Key logic:
 - **10–7 cm** → Slow beeps  
 - **7–3 cm** → Faster beeps  
-- **≤ 2 cm** → Continuous warning tone  
+- **≤ 3 cm** → Continuous warning tone  
 
 ---
 
