@@ -23,7 +23,7 @@ It simulates the functionality of a real car reverse sensor system.
 ---
 
 ## 🖼️ Circuit Diagram
-![Circuit](images/circuit.jpg)
+![Circuit](circuit.jpg)
 
 *(Replace with your own breadboard photo)*
 
