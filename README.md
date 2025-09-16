@@ -40,4 +40,30 @@ Key logic:
 ## 🚀 How to Run
 1. Clone this repo:
    ```bash
-   git clone https://github.com/<your-username>/arduino-car-reverse-sensor.git
+   git clone https://github.com/<AnooshZ>/arduino-car-reverse-sensor.git
+   
+2. Open the project in Arduino IDE:
+   - Launch the Arduino IDE.
+   - Open the file ReverseSensor.ino from the repo.
+
+3. Connect your hardware:
+   - Arduino UNO R3
+   - HC-SR04 ultrasonic sensor
+     - Trig → pin 10
+     - Echo → pin 11
+   - Piezo buzzer → pin 9
+   - Power (5V, GND) and jumper wires via breadboard
+
+4. Upload the code:
+   - In Arduino IDE, select:
+     - Board: Arduino UNO
+     - Port: (the COM port your board is connected to)
+   - Click Upload.
+
+5. Test the system:
+   - Open the Serial Monitor (9600 baud) to view live distance readings.
+   - Move your hand or an object in front of the sensor.
+   - The buzzer should beep faster as the object gets closer:
+     - 10–7 cm → Slow beeps
+     - 7–3 cm → Faster beeps
+     - ≤ 3 cm → Continuous tone
