@@ -23,7 +23,7 @@ It simulates the functionality of a real car reverse sensor system.
 ---
 
 ## 🖼️ Circuit Diagram
-![Circuit](Circuit.jpg)
+![Circuit](circuit.jpg)
 
 ---
 
@@ -37,10 +37,21 @@ Key logic:
 
 ---
 
+## 🎥 Demo
+
+Here’s the reverse parking sensor in action:
+
+[![Demo Video](Circuit.jpg)](demo.mp4)
+
+*(Click the image to watch the demo video)*
+
+---
+
+
 ## 🚀 How to Run
 1. Clone this repo:
    ```bash
-   git clone https://github.com/<AnooshZ>/arduino-car-reverse-sensor.git
+   git clone https://github.com/AnooshZ/arduino-car-reverse-sensor.git
    
 2. Open the project in Arduino IDE:
    - Launch the Arduino IDE.
@@ -67,3 +78,21 @@ Key logic:
      - 10–7 cm → Slow beeps
      - 7–3 cm → Faster beeps
      - ≤ 3 cm → Continuous tone
+
+---
+
+## 📌 Learning Outcomes
+- Embedded C/C++ programming in Arduino
+- Ultrasonic sensor integration
+- Real-time distance measurement
+- Hardware-software integration for automotive systems
+
+---
+
+## 🔮 Future Improvements
+- Add multiple sensors for wider coverage
+- Display distance on an LCD screen
+- Integrate with car LEDs for visual feedback
+
+
+   
